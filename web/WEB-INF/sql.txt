@@ -1,0 +1,9 @@
+SQL> create table hr_users(id number, username varchar2(20), password varchar2(40), role_name varchar2(20));
+
+SQL> create sequence hr_users_seq start with 4 increment by 1;
+
+SQL> insert into hr_users values (1, 'saeid', '123', 'admin');
+
+SQL> insert into hr_users values (2, 'ali', '123', 'employee');
+
+SQL> insert into hr_users values (3, 'reza', '123', 'manager');
